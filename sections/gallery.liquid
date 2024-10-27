@@ -1,0 +1,110 @@
+  <div class="gallery-section index-section">
+    <div class="page-width" style="text-align:center;">
+      
+      <div class="section-header text-center">
+        <h2>{{ section.settings.section_title }}</h2>
+      </div>
+      
+      <div class="gallery-container">
+  
+        
+  
+        <div class="gallery-item">
+          <img
+              src="{{ section.settings.gallery_image1 | img_url: 'large' }}"
+              alt="{{ section.settings.section_title }}"
+              loading="lazy"
+              />
+          
+        </div>
+  
+        <div class="gallery-item">
+          <img
+              src="{{ section.settings.gallery_image2 | img_url: 'large' }}"
+              alt="{{ section.settings.section_title }}"
+              loading="lazy"
+              />
+        </div>
+  
+        <div class="gallery-item">
+          <img
+              src="{{ section.settings.gallery_image3 | img_url: 'large' }}"
+              alt="{{ section.settings.section_title }}"
+              loading="lazy"
+              />
+        </div>
+  
+        <div class="gallery-item">
+          <img
+              src="{{ section.settings.gallery_image4 | img_url: 'large' }}"
+              alt="{{ section.settings.section_title }}"
+              loading="lazy"
+              />
+        </div>
+      </div>
+
+      <a href="/collections/all" class="btn btn--secondary btn--small" style="margin: 35px auto 0;">View all collections</a>
+      
+    </div>
+  </div>
+
+{% schema %}
+{
+  "name": "Gallery Section",
+  "settings": [
+    {
+      "type": "text",
+      "label": "Title",
+      "id": "section_title",
+      "default": "Gallery"
+    },
+    {
+      "type": "image_picker",
+      "label": "Chooise image",
+      "id": "gallery_image1"
+    },
+    {
+      "type": "image_picker",
+      "label": "Chooise image",
+      "id": "gallery_image2"
+    },
+    {
+      "type": "image_picker",
+      "label": "Chooise image",
+      "id": "gallery_image3"
+    },
+    {
+      "type": "image_picker",
+      "label": "Chooise image",
+      "id": "gallery_image4"
+    }
+  ],
+
+
+  "presets": [
+    {
+      "name": "Gallery",
+      "category": "Custom"
+    }
+  ]
+  
+}
+{% endschema %}
+
+{% stylesheet %}
+  .gallery-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+  }
+
+  @media(max-width:600px) {
+    .gallery-container {
+      grid-template-columns: 1fr 1fr;
+      gap: .5rem;
+    }
+  }
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

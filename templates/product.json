@@ -1,0 +1,283 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "loox-rating": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "d8b08dbb-95b2-4a79-a977-ba6d95d42629": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "5d99889d-280e-48e9-84a2-2f37ebb2a2f6": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "code": "<p style=\"font-size:20px\" >Use promo code <strong><u style=\"color:#e44a58\">WINTER10<\/u><\/strong> and get <b>10%<\/b> off your first order<\/p>"
+          }
+        },
+        "32f20b51-ac02-40ea-8934-f9b2a369683c": {
+          "type": "custom",
+          "settings": {
+            "code": "<strong><\/strong>"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false
+          }
+        },
+        "7a48dd81-34ec-48ef-ac31-4bf029d1c91e": {
+          "type": "trust_badge",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "828bbd86-5429-4d57-b238-3152428293b1": {
+          "type": "tab",
+          "settings": {
+            "title": "Details",
+            "content": "{{ product.metafields.custom.details | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "settings": {
+            "title": "Shipping",
+            "content": "<p>At Anna Mooks, we offer efficient and reliable shipping services to provide you with a seamless shopping experience. Orders are typically processed within 1-2 business days. We offer various shipping methods with estimated delivery times displayed at checkout. Shipping costs are calculated based on product weight and dimensions, and international shipping is available to select countries. For more information, please visit our Shipping Policy page <a href=\"https:\/\/www.anna-mooks.com\/pages\/shipping-policy\">here<\/a>. Read more about delivery.<\/p><p>For any further inquiries, please contact our customer support team.<\/p>",
+            "page": "shipping-policy-1"
+          }
+        },
+        "7605a7db-a2cb-4ab4-9781-a5ffa4869767": {
+          "type": "tab",
+          "settings": {
+            "title": "Guarantee",
+            "content": "<p>At Anna Mooks, we are committed to ensuring your satisfaction with our products and services. We stand behind the quality of our merchandise and offer a guarantee to provide you with peace of mind.<\/p><p>Product Quality:<br\/>We take great care in curating and designing our products to meet the highest standards of quality. If you encounter any issues with the quality of the product you receive, please contact our customer support team, and we will work swiftly to resolve the matter.<\/p><p>Return and Refund Policy:<br\/>We understand that sometimes a product may not meet your expectations or may not be suitable for your needs. In such cases, we offer a hassle-free return and refund policy. You can find detailed information about our return and refund process on our Refund Policy page <a href=\"https:\/\/www.anna-mooks.com\/pages\/refund-policy\">here<\/a>.<\/p><p>Customer Satisfaction:<br\/>Your satisfaction is our top priority. If you have any concerns or questions regarding our products or services, our dedicated customer support team is here to assist you. We strive to provide exceptional customer service and resolve any issues you may encounter promptly.<\/p><p>For more information about our guarantee and how we handle returns and refunds, please visit our Refund Policy page <a href=\"https:\/\/www.anna-mooks.com\/pages\/refund-policy\">here<\/a>.<\/p>",
+            "page": ""
+          }
+        },
+        "contact": {
+          "type": "contact",
+          "settings": {
+            "title": "Ask a question",
+            "phone": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "price",
+        "loox-rating",
+        "separator",
+        "variant_picker",
+        "d8b08dbb-95b2-4a79-a977-ba6d95d42629",
+        "5d99889d-280e-48e9-84a2-2f37ebb2a2f6",
+        "32f20b51-ac02-40ea-8934-f9b2a369683c",
+        "buy_buttons",
+        "7a48dd81-34ec-48ef-ac31-4bf029d1c91e",
+        "description",
+        "828bbd86-5429-4d57-b238-3152428293b1",
+        "tab",
+        "7605a7db-a2cb-4ab4-9781-a5ffa4869767",
+        "contact",
+        "share"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like",
+        "related_count": 5
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "recent_count": 5
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {
+      }
+    },
+    "f53e257b-dc05-4544-9d0b-8a21a4c3f27c": {
+      "type": "text-columns",
+      "blocks": {
+        "template--17117612966202__f53e257b-dc05-4544-9d0b-8a21a4c3f27c-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/wedding-rings.webp",
+            "image_width": 150,
+            "title": "WIDE SELECTION",
+            "text": "<p>Anna Mooks offers a vast collection of wedding rings to choose from, ensuring you can find the perfect ring to match your style and preferences.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--17117612966202__f53e257b-dc05-4544-9d0b-8a21a4c3f27c-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/certificate.webp",
+            "image_width": 150,
+            "title": "EXCEPTIONAL QUALITY",
+            "text": "<p>At Anna Mooks, quality is a top priority. All of their wedding rings are crafted with care and attention to detail, ensuring they will last a lifetime and serve as a beautiful symbol of your love.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--17117612966202__f53e257b-dc05-4544-9d0b-8a21a4c3f27c-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/gift.webp",
+            "image_width": 150,
+            "title": "CONVENIENT EXPERIENCE",
+            "text": "<p>With an easy-to-use online platform, shopping for the perfect wedding ring has never been more convenient. You can browse and purchase your ring from the comfort of your own home.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17117612966202__f53e257b-dc05-4544-9d0b-8a21a4c3f27c-text_block-1",
+        "template--17117612966202__f53e257b-dc05-4544-9d0b-8a21a4c3f27c-text_block-2",
+        "template--17117612966202__f53e257b-dc05-4544-9d0b-8a21a4c3f27c-text_block-3"
+      ],
+      "settings": {
+        "title": "Why Select us",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "56c3376d-a788-4bbd-a538-ad92e8426565": {
+      "type": "newsletter",
+      "blocks": {
+        "template--16981235499294__56c3376d-a788-4bbd-a538-ad92e8426565-1668717414d540ecd3-0": {
+          "type": "title",
+          "settings": {
+            "title": "Sign up and save"
+          }
+        },
+        "template--16981235499294__56c3376d-a788-4bbd-a538-ad92e8426565-1668717414d540ecd3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
+          }
+        },
+        "template--16981235499294__56c3376d-a788-4bbd-a538-ad92e8426565-1668717414d540ecd3-2": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--16981235499294__56c3376d-a788-4bbd-a538-ad92e8426565-1668717414d540ecd3-0",
+        "template--16981235499294__56c3376d-a788-4bbd-a538-ad92e8426565-1668717414d540ecd3-1",
+        "template--16981235499294__56c3376d-a788-4bbd-a538-ad92e8426565-1668717414d540ecd3-2"
+      ],
+      "settings": {
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d"
+      }
+    },
+    "loox-product-reviews-app-section": {
+      "type": "apps",
+      "blocks": {
+        "loox-product-reviews": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox-product-reviews"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "sub",
+    "product-recommendations",
+    "recently-viewed",
+    "collection-return",
+    "f53e257b-dc05-4544-9d0b-8a21a4c3f27c",
+    "56c3376d-a788-4bbd-a538-ad92e8426565",
+    "loox-product-reviews-app-section"
+  ]
+}

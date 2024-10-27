@@ -1,0 +1,87 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "21838f3b-4b8c-4fd0-9acd-d584f9635db3": {
+      "type": "text-columns",
+      "blocks": {
+        "template--17117612638522__21838f3b-4b8c-4fd0-9acd-d584f9635db3-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/wedding-rings.webp",
+            "image_width": 150,
+            "title": "WIDE SELECTION",
+            "text": "<p>Anna Mooks offers a vast collection of wedding rings to choose from, ensuring you can find the perfect ring to match your style and preferences.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--17117612638522__21838f3b-4b8c-4fd0-9acd-d584f9635db3-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/gift.webp",
+            "image_width": 150,
+            "title": "CONVENIENT EXPERIENCE",
+            "text": "<p>With an easy-to-use online platform, shopping for the perfect wedding ring has never been more convenient. You can browse and purchase your ring from the comfort of your own home.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--17117612638522__21838f3b-4b8c-4fd0-9acd-d584f9635db3-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/certificate.webp",
+            "image_width": 150,
+            "title": "EXCEPTIONAL QUALITY",
+            "text": "<p>At Anna Mooks, quality is a top priority. All of their wedding rings are crafted with care and attention to detail, ensuring they will last a lifetime and serve as a beautiful symbol of your love.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17117612638522__21838f3b-4b8c-4fd0-9acd-d584f9635db3-text_block-1",
+        "template--17117612638522__21838f3b-4b8c-4fd0-9acd-d584f9635db3-text_block-2",
+        "template--17117612638522__21838f3b-4b8c-4fd0-9acd-d584f9635db3-text_block-3"
+      ],
+      "settings": {
+        "title": "Why choose us",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "c67cbb1f-0ca5-4a11-bdb3-01e23f525fa8": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Bestsellers",
+        "home_featured_products": "celebration",
+        "per_row": 5,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "23b1ea5d-926f-4107-85c8-84fcede93480": {
+      "type": "contact-form",
+      "settings": {
+        "title": "Contact us",
+        "text": "",
+        "show_phone": false,
+        "narrow_column": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "21838f3b-4b8c-4fd0-9acd-d584f9635db3",
+    "c67cbb1f-0ca5-4a11-bdb3-01e23f525fa8",
+    "23b1ea5d-926f-4107-85c8-84fcede93480"
+  ]
+}
